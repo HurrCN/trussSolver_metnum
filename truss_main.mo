@@ -6,7 +6,7 @@ Developed by Muhammad Hurricane, Faris Ariq Naufal, Laksamana Arria Wibowo
 Problem that is solved is P3/5
 */
 
-model TugasProjectTruss_Metnum_Hurricane
+model TugasProjectTruss_Metnum_HurricaneFarisLaks
 
 // =============== INPUT PROPS & CONDITIONS ===============
 
@@ -42,4 +42,4 @@ parameter Real Crd[nJoint,2]=[ 0,   0;
 parameter Integer a;
 equation
 
-end TugasProjectTruss_Metnum_Hurricane;
+end TugasProjectTruss_Metnum_HurricaneFarisLaks;
