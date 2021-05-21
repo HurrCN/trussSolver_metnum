@@ -13,7 +13,7 @@ protected
 Real error = 10e-10;
 
 algorithm
-u:=Modelica.Math.Matrices.solve(A,b); //solving the eigenvector
+u:=Modelica.Math.Matrices.solve(A,b); //solve to find the eigenvector
 
 //Eliminating float error for less than error value
 for i in 1:8 loop
